@@ -74,7 +74,7 @@ public class GamePanel extends JPanel implements Runnable{
 		//Bounces ball off paddles
 		if(ball.intersects(paddle1)) {
 			ball.xVelocity = Math.abs(ball.xVelocity);
-			ball.xVelocity++; //optional for more difficulty
+			//ball.xVelocity++; //optional for more difficulty
 			if(ball.yVelocity > 0)
 				ball.yVelocity++; //optional for more difficulty
 			else
@@ -84,7 +84,7 @@ public class GamePanel extends JPanel implements Runnable{
 		}
 		if(ball.intersects(paddle2)) {
 			ball.xVelocity = Math.abs(ball.xVelocity);
-			ball.xVelocity++; //optional for more difficulty
+			//ball.xVelocity++; //optional for more difficulty
 			if(ball.yVelocity > 0)
 				ball.yVelocity++; //optional for more difficulty
 			else
